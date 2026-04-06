@@ -12,8 +12,11 @@ This repository contains a high-performance machine learning pipeline designed t
 * **Automated Hyperparameter Tuning**: Integrated **Optuna** optimization specifically for CatBoost parameters.
 * **Secondary Analytics**: Methodology for calculating a "Route-Level Fuel Benchmark" independent of dumper efficiency.
 * **Operational Insights**: Generation of efficiency reports for both vehicles and operators.
+  
 
 ---
+##Important Note
+* Run with including Cached_features because it ia important file.So run the code including in your initial datasets.
 
 ## 🛠 Model Architecture
 The pipeline utilizes a 5-fold cross-validation strategy. The final prediction is a weighted ensemble calculated as follows:
